@@ -1,0 +1,8 @@
+{
+    "name": "tcp-sockets",
+    "version": "1.0.0",
+    "main": "sockets.js",
+    "nativescript": {
+        "platforms": { "ios": "1.3.0" }
+    }
+}
