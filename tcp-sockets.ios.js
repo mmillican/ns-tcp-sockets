@@ -8,9 +8,12 @@ var _currentConnection = null;
 exports.init = function(ipAddress, port) {
     _config.ipAddress = ipAddress;
     _config.port = port;
+    
+    console.log('init: IP: ' + _config.ipAddress + ' / Port: ' + _config.port);
 };
 
 exports.openConnection = function() {
+    debugger;
     _currentConnection = new GCDAsyncSocket();
     
     console.log(_currentConnection);
